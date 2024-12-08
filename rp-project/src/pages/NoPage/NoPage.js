@@ -1,4 +1,5 @@
-import Header from '../components/Header'
+import './NoPage.css';
+import Header from '../../components/Header'
 
 
 export default function NoPage() {
