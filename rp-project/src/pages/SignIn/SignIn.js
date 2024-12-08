@@ -1,5 +1,5 @@
 import './SignIn.css';
-import Header from '../../components/Header'
+import Header from '../../components/Header/Header'
 
 export default function SignIn() {
     return (
