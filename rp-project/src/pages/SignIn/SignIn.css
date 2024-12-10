@@ -1,9 +1,5 @@
-body {
+/* body {
     background-color: lightgoldenrodyellow;
-}
-/* button {
-    color: red;
-    background-color: black;
 } */
 
 #signupbtn {
@@ -40,6 +36,12 @@ body {
   font-size: 30px;
   border-color: rgb(244, 208, 80);
   box-shadow: 0px -4px 4px rgba(169, 116, 3, 0.826);
+}
+
+img {
+    height: 300px;
+    margin: 0 auto;
+    display: block;
 }
 
 .button-container {
