@@ -1,0 +1,47 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+/* button {
+    color: red;
+    background-color: black;
+} */
+
+#signupbtn {
+    background-color: rgb(51, 122, 193);
+    color: white;
+    width: 300px;
+    height: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    border-color: rgb(51, 122, 193);
+    box-shadow: 0px -4px 4px rgba(19, 64, 90, 0.826);
+}
+
+#loginbtn {
+    background-color: rgb(244, 208, 80);
+    color: white;
+    width: 300px;
+    height: 75px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  border-color: rgb(244, 208, 80);
+  box-shadow: 0px -4px 4px rgba(169, 116, 3, 0.826);
+}
+
+.button-container {
+    display: flex;
+}
