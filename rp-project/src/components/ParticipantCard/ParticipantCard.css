@@ -1,0 +1,12 @@
+.container {
+    background-color: #E3E8F1;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 2px;
+    width: 35%;
+    height: 30%;
+}
+
+#name, .data {
+    margin: 0px;
+}
