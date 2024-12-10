@@ -1,0 +1,20 @@
+#partheader {
+    color: #00529B;
+    text-align: center;
+}
+
+#advisors {
+    color: #F5585E;
+}
+
+#board {
+    color: #FFC511;
+}
+
+#member {
+    color: #00984D;
+}
+
+#advisors, #board, #member {
+    margin-left: 20px;
+}
