@@ -18,3 +18,14 @@
 #advisors, #board, #member {
     margin-left: 20px;
 }
+
+.partcontainer {
+    grid-template-columns: auto auto;
+    display: grid;
+}
+
+#exportcontainer {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    height: 100vh;
+}
