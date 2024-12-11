@@ -7,7 +7,9 @@ export default function Home() {
         <>
             <Header />
             <Menu />
-            <h2>Home Page</h2>
+            <div>
+                <h2>Home Page</h2>
+            </div>
         </>
     )
 }

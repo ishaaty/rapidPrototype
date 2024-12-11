@@ -1,0 +1,41 @@
+/* Sidebar container */
+.sidebar {
+    position: fixed; /* Sticks to the left side */
+    top: 60px; /* Adjust this value to match your header's height */
+    left: 0;
+    width: 250px; /* Fixed width */
+    height: calc(100% - 60px); /* Subtract the header height from 100% */
+    background-color: #E3E8F1; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+    overflow-y: auto; /* Scrollable if content exceeds height */
+}
+
+/* Menu list */
+.menu-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Menu items */
+.menu-list li {
+    margin: 15px 0; /* Add spacing between menu items */
+}
+
+/* Menu links */
+.menu-link {
+    text-decoration: none; /* Remove underline */
+    color: #6786A3; /* Default text color */
+    font-size: 1.2rem; /* Font size */
+    display: block; /* Block-level links for clickable area */
+    padding: 10px 15px; /* Add padding for better usability */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for links */
+.menu-link:hover {
+    color: #00529B; /* Change text color */
+}
