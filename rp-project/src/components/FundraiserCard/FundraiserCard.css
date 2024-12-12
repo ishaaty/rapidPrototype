@@ -1,0 +1,33 @@
+.fundcont {
+    height: 33vh;
+    width: 33vw;
+    margin: 2vw;
+    border-radius: 8px;
+}
+
+#fundhead, #fundname, #funddesc, #funddate, #fundtime {
+    color: white;
+    text-align: center;
+}
+
+#fundsignup, #approval {
+    background-color: #00529B;
+    color: #E3E8F1;
+    border: #c6cad2;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#fundsignup:active, #approval:active {
+    background-color: #013867;
+    border: #a5a8ae;
+}
+
+#fundsignup:hover, #approval:hover {
+    background-color: #0465bb;
+}
+
+.fundsignup, .approval {
+    display: flex;
+    justify-content: center;
+}

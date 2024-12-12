@@ -1,0 +1,31 @@
+#partheader {
+    color: #00529B;
+    text-align: center;
+}
+
+#advisors {
+    color: #F5585E;
+}
+
+#board {
+    color: #FFC511;
+}
+
+#member {
+    color: #00984D;
+}
+
+#advisors, #board, #member {
+    margin-left: 20px;
+}
+
+.partcontainer {
+    grid-template-columns: auto auto;
+    display: grid;
+}
+
+#exportcontainer {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    height: 100vh;
+}
