@@ -1,0 +1,47 @@
+/* Header container styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00529B;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Logo and title container styling */
+.header-logo-container {
+    display: flex;
+    align-items: left;
+}
+
+/* Logo image styling */
+.header-logo {
+    width: 50px; /* Adjust size as needed */
+    height: 40px;
+    margin-right: 10px; /* Space between logo and title */
+}
+
+/* Title styling */
+.header-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Navigation links styling */
+.header-nav {
+    display: flex;
+    gap: 20px; /* Adds space between links */
+    align-items: center;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    align-items: center;
+}
+
+.header-link:hover {
+    color: #61dafb; /* Adds a hover effect */
+}

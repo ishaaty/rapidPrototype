@@ -1,0 +1,69 @@
+#fundheader {
+    color: #00529B;
+    text-align: center;
+}
+
+.funds {
+    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.createfund {
+    background-color: #00529B;
+    width: 50vw;
+    height: 20vw;
+    margin: auto auto;
+    margin-bottom: 5%;
+}
+
+.fundentries {
+    grid-template-rows: auto auto auto;
+    display: grid;
+    justify-content: center;
+    background-color: #00529B;
+    width: 100%;
+}
+
+#newfundname, #newfunddesc, #newfunddate, #newfundtime {
+    background-color: #57A1F8;
+    color: white;
+    width: 30vw;
+    margin: 5px;
+    font-family: "Lexend Deca";
+}
+
+#newfundname::placeholder, #newfunddesc::placeholder, #newfunddate::placeholder, #newfundtime::placeholder {
+    color: white;
+}
+
+#createhead {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+.fundsubmit {
+    display: flex;
+    justify-content: center;
+}
+
+#fundsubmit {
+    background-color: #57A1F8;
+    border: #447fc2;
+    color: white;
+    width: 10vw;
+    margin-top: 5%;
+    font-family: "Lexend Deca";
+}
+
+#fundsubmit:active {
+    background-color: #447fc2;
+    border: #2c527c;
+    border-style: inset;
+}
+
+#fundsubmit:hover {
+    background-color: #70b1fb;
+    border: #57A1F8;
+}
