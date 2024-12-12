@@ -4,7 +4,7 @@ import Menu from '../../components/Menu/Menu'
 import Resources from '../../components/Resources/Resources'
 
 
-const ResourcesPage = () => {
+const ResourcesPage = (userRole) => {
     const resourcesData = [
       {
         text: "Deca+",
