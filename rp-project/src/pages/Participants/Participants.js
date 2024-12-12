@@ -8,7 +8,7 @@ import ExportCard from '../../components/ExportCard/ExportCard'
 export default function Participants(userRole) {
 
     const renderAdminContent = () => {
-        if (userRole === 'admin' || true) {
+        if (userRole === 'admin') {
             return (
                 <ExportCard />
             );
