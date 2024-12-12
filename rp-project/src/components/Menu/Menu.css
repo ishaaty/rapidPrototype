@@ -39,3 +39,9 @@
 .menu-link:hover {
     color: #00529B; /* Change text color */
 }
+
+/* Main content */
+.main-content {
+    margin-left: 23vw; /* Match the sidebar's width */
+    padding: 1vw; /* Optional: Add padding for a cleaner layout */
+}
