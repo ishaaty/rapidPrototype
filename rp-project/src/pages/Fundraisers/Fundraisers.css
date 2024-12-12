@@ -15,6 +15,7 @@
     height: 20vw;
     margin: auto auto;
     margin-bottom: 5%;
+    border-radius: 8px;
 }
 
 .fundentries {
@@ -31,6 +32,7 @@
     width: 30vw;
     margin: 5px;
     font-family: "Lexend Deca";
+    border-radius: 4px;
 }
 
 #newfundname::placeholder, #newfunddesc::placeholder, #newfunddate::placeholder, #newfundtime::placeholder {
@@ -55,6 +57,7 @@
     width: 10vw;
     margin-top: 5%;
     font-family: "Lexend Deca";
+    border-radius: 4px;
 }
 
 #fundsubmit:active {

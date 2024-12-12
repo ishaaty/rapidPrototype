@@ -1,0 +1,11 @@
+.resources-page {
+    padding: 24px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .resources-page h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  

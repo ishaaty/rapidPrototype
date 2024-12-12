@@ -2,6 +2,7 @@
     height: 33vh;
     width: 33vw;
     margin: 2vw;
+    border-radius: 8px;
 }
 
 #fundhead, #fundname, #funddesc, #funddate, #fundtime {
@@ -13,7 +14,7 @@
     background-color: #00529B;
     color: #E3E8F1;
     border: #c6cad2;
-    /* border-radius: 6px; */
+    border-radius: 4px;
     font-size: 1em;
 }
 

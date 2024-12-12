@@ -1,0 +1,72 @@
+.resources-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two boxes per row */
+  gap: 45px; /* Spacing between boxes */
+  padding: 16px;
+  height: 70vh;
+  box-sizing: border-box;
+}
+
+.resource-box {
+  background-color: #00529B;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resource-text {
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+}
+
+.resource-buttons {
+  display: flex;
+  padding: 25px 10px;
+  gap: 16px;
+}
+
+.resource-button {
+  background-color: white;
+  color: #00529B;
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.resource-button:hover {
+  background-color: #003563;
+  color: white;
+}
+
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 16px; /* Position button at the bottom */
+  left: 0;
+  right: 0;
+}
+
+.center-button {
+  background-color: #F5585E;
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.center-button:hover {
+  background-color: #0056b3;
+}
