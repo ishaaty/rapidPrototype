@@ -10,10 +10,11 @@ export default function SignIn() {
                 <img src="decaLogo.png" alt="decaLogoNotWorking"></img>
             </div>
             <div class="button-container">
-                <button id="signupbtn"><strong>Admin</strong></button>
-                <button id="loginbtn"><strong>Participant</strong></button>
+                {/* <button id="signupbtn"><strong>Admin</strong></button>
+                <button id="loginbtn"><strong>Participant</strong></button> */}
+                <a href="home" id="signupbtn"><strong>Admin</strong></a>
+                <a href="home" id="loginbtn"><strong>Participant</strong></a>
             </div>
         </>
     )
-    // make student button and make admin button
 }
