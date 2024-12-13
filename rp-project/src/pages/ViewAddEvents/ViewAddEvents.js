@@ -9,6 +9,11 @@ export default function ViewAddEvents() {
             <Menu />
             <div style={{ color: "#00529B", alignItems: "center" }} className="add-event-container">
                 <h1 style={{ color: "#00529B" }}>View & Add Events: Regionals</h1>
+                <a href="roommates">
+                    <button style={{ backgroundColor: "#00529B", color:"white" }}>
+                        View Roommates
+                    </button>
+                </a>
                 <div>
                 <h1 style={{ color: "#F5585E", alignItems: "center" }}>Current Events:</h1>
                     <button id="roleplay" style={{ backgroundColor: "#E3E8F1", color: "#6786A3", marginRight: "45px"}}>

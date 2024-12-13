@@ -78,3 +78,15 @@
     text-align: center; /* Centers text inside elements */
     gap: 20px; /* Adds space between the buttons */
 }
+
+
+.hori {
+    display: flex; /* Enables Flexbox */
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    gap: 20px; /* Adds space between items */
+    text-align: center;
+    margin-bottom: 20px; /* Adds spacing between sections */
+    margin-left: 20px;
+}

@@ -1,0 +1,29 @@
+.horizontal-centerr {
+    display: flex; /* Enables Flexbox */
+    flex-wrap: wrap; /* Allows wrapping if content exceeds the container width */
+    justify-content: center; /* Aligns items horizontally to the center */
+    gap: 20px; /* Adds space between items */
+    text-align: center; /* Centers text within items */
+    padding: 20px; /* Adds padding around the container */
+}
+
+
+.verticall {
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    gap: 15px; /* Adds spacing between buttons */
+    text-align: center; /* Centers text within the buttons */
+}
+
+
+.cnterr-container {
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically */
+    min-height: 100vh; /* Makes the container span the full viewport */
+    text-align: center; /* Centers text */
+    gap: 20px; /* Adds spacing between elements */
+}
