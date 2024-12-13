@@ -14,6 +14,7 @@ import Competitions from "../Competitions/Competitions"
 import Fundraisers from "../Fundraisers/Fundraisers"
 import Participants from "../Participants/Participants"
 import Resources from "../Resources/Resources"
+import FundraiserApproval from "../Fundraisers/FundraiserApproval/FundraiserApproval"
 import ResourcesPage from '../Resources/Resources';
 
 export default function App() {
@@ -33,6 +34,8 @@ export default function App() {
           <Route path="/fundraisers" element={<Fundraisers/>}/>
           <Route path="/participants" element={<Participants/>}/>
           <Route path="/resources" element={<Resources/>}/>
+          <Route path="/fundraiserapproval" element={<FundraiserApproval/>}/>
+
           <Route path="*" element={<NoPage/>}/>
 
         </Routes>

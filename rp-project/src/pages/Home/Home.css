@@ -1,0 +1,59 @@
+/* General page styles */
+.home-container {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+  }
+  
+  /* Calendar section */
+  .calendar-container {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 50vh;
+  }
+
+  .calendar-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center; /* Centers the title */
+    }
+
+
+  
+  /* Sidebar section */
+  .sidebar-container {
+    flex: 1; /* Smaller section for announcements and events */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  /* Announcements and events boxes */
+  .announcements-box,
+  .events-box {
+    background-color: #E3E8F1;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 15vh;
+    width: 50vh;
+  }
+  
+  .announcements-box h3,
+  .events-box h3 {
+    margin: 0 0 12px 0;
+}
+  
+  .announcements-box ul,
+  .events-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .announcements-box li,
+  .events-box li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  

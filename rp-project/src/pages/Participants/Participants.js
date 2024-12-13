@@ -5,10 +5,10 @@ import ParticipantCard from '../../components/ParticipantCard/ParticipantCard'
 import AdminCard from '../../components/AdminCard/AdminCard'
 import ExportCard from '../../components/ExportCard/ExportCard'
 
-export default function Participants(userRole) {
+export default function Participants(props) {
 
     const renderAdminContent = () => {
-        if (userRole === 'admin') {
+        if (props.userRole === 'admin') {
             return (
                 <ExportCard />
             );
