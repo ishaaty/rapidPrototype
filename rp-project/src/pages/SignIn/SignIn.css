@@ -14,10 +14,12 @@
   -moz-osx-font-smoothing: grayscale;
     border-radius: 20px;
     margin: 0 auto;
-    display: block;
     font-size: 30px;
     border-color: rgb(51, 122, 193);
     box-shadow: 0px -4px 4px rgba(19, 64, 90, 0.826);
+    text-align: center;
+    line-height: 2.3em;
+    text-decoration: none;
 }
 
 #loginbtn {
@@ -32,10 +34,12 @@
   -moz-osx-font-smoothing: grayscale;
   border-radius: 20px;
   margin: 0 auto;
-  display: block;
   font-size: 30px;
   border-color: rgb(244, 208, 80);
   box-shadow: 0px -4px 4px rgba(169, 116, 3, 0.826);
+  text-align: center;
+  line-height: 2.3em;
+  text-decoration: none;
 }
 
 img {
