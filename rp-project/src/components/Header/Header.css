@@ -1,3 +1,8 @@
+body {
+    padding-top: 60px; /* Adjust to match the navbar height */
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,7 +10,13 @@
     background-color: #00529B;
     color: white;
     padding: 10px 20px;
+    position: fixed; /* Fixes the navbar to the viewport */
+    top: 0; /* Positions it at the top */
+    width: 100%; /* Ensures it spans the full width of the viewport */
+    z-index: 1000; /* Ensures it stays above other elements */
+    box-sizing: border-box; /* Ensures padding is included in the height/width */
 }
+
 
 
 /* Logo and title container styling */
