@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: auto auto;
     width: 25vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
 }
 
 #approve {
@@ -38,7 +40,7 @@
     border-radius: 4px;
     color: white;
     width: fit-content;
-    margin-left: 2vw;
+    margin-left: 0.5vw;
     margin-right: 2vw;
     padding: 2%;
     font-family: "Lexend Deca";

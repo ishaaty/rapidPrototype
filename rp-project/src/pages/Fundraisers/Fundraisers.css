@@ -1,12 +1,14 @@
 #fundheader {
     color: #00529B;
     text-align: center;
+    padding-left: 20vw;
 }
 
 .funds {
     grid-template-columns: auto auto auto;
     display: flex;
     justify-content: center;
+    padding-left: 20vw;
 }
 
 .createfund {
@@ -16,6 +18,7 @@
     margin: auto auto;
     margin-bottom: 5%;
     border-radius: 8px;
+    margin-left: 35vw;
 }
 
 .fundentries {
