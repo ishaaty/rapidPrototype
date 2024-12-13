@@ -1,0 +1,31 @@
+.add-event-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements horizontally */
+    gap: 20px; /* Space between buttons */
+    margin: 20px; /* Optional: Add spacing around the container */
+}
+
+.add-event-container button {
+    width: 200px; /* Set button width */
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #D9D9D9; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.add-event-container h1 {
+    margin-bottom: 20px; /* Add spacing below the header */
+}
+
+#submit-btn {
+    background-color: #00529B;
+    color: white;
+}
+
+#roleplay, #binder {
+    width: 250px;
+}

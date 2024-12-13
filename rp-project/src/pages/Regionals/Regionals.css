@@ -1,0 +1,27 @@
+/* Container for centering buttons */
+.button-containerr {
+    display: flex;
+    flex-direction: row; /* Align buttons in a row */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* Adds space between buttons */
+    min-height: 100vh; /* Makes the container span the full height of the viewport */
+}
+
+/* Styling for the buttons */
+.type {
+    margin: 0; /* Remove margin to rely on gap for spacing */
+    width: 350px;
+    height: 550px;
+    font-size: 2rem;
+    background-color: #00529B; /* Button background */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.type:hover {
+    background-color: #003f73; /* Darker shade on hover */
+}

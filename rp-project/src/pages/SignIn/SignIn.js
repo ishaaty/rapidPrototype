@@ -5,7 +5,6 @@ export default function SignIn() {
     return (
         <>
             <Header />
-            <h2>Sign In</h2>
             <div>
                 <img src="decaLogo.png" alt="decaLogoNotWorking"></img>
             </div>

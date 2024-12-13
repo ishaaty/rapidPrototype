@@ -1,0 +1,80 @@
+/* Main container for centering */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Ensures text alignment */
+}
+
+/* Header text styling */
+.header-text {
+    color: #F5585E;
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+/* Styling for the student buttons */
+.student-button {
+    background-color: #00529B;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px; /* Adds space between student buttons */
+    width: 300px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-button:hover {
+    background-color: #003f73; /* Darker shade on hover */
+}
+
+/* Action buttons container */
+.action-buttons {
+    display: flex;
+    justify-content: center; /* Align action buttons horizontally */
+    gap: 20px; /* Adds space between the buttons */
+    margin-top: 20px; /* Adds space above the action buttons */
+}
+
+/* Grant button styling */
+.grant-button {
+    background-color: #00984D;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.grant-button:hover {
+    background-color: #006938; /* Darker green on hover */
+}
+
+/* Deny button styling */
+.deny-button {
+    background-color: #F5585E;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deny-button:hover {
+    background-color: #c4464b; /* Darker red on hover */
+}
+
+
+.vertical-center {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Aligns items vertically */
+    align-items: center; /* Aligns items horizontally */
+    text-align: center; /* Centers text inside elements */
+    gap: 20px; /* Adds space between the buttons */
+}

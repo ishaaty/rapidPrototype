@@ -16,6 +16,9 @@ import Participants from "../Participants/Participants"
 import Resources from "../Resources/Resources"
 import FundraiserApproval from "../Fundraisers/FundraiserApproval/FundraiserApproval"
 import ResourcesPage from '../Resources/Resources';
+import Regionals from '../Regionals/Regionals';
+import ViewAddEvents from '../ViewAddEvents/ViewAddEvents';
+import ViewRequesters from '../ViewRequesters/ViewRequesters';
 
 export default function App() {
   return (
@@ -23,7 +26,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route index element ={<Welcome/>}/>
+          <Route index element ={<SignIn/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/signin" element={<SignIn/>}/>
@@ -35,6 +38,9 @@ export default function App() {
           <Route path="/participants" element={<Participants/>}/>
           <Route path="/resources" element={<Resources/>}/>
           <Route path="/fundraiserapproval" element={<FundraiserApproval/>}/>
+          <Route path="/regionals" element={<Regionals/>}/>
+          <Route path="/viewaddevents" element={<ViewAddEvents/>}/>
+          <Route path="/viewrequesters" element={<ViewRequesters/>}/>
 
           <Route path="*" element={<NoPage/>}/>
 

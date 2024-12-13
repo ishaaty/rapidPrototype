@@ -11,7 +11,7 @@ export default function Competitions() {
             <h2 class="comp">View Competitions</h2>
             <div className="competition-grid">
 
-                <CompetitionLevelCard name="Regionals" color="#F5585E" />
+                <a href="regionals" ><CompetitionLevelCard name="Regionals" color="#F5585E" /></a>
                 <CompetitionLevelCard name="States" color="#FFC511" />
                 <CompetitionLevelCard name="Nationals" color="#00529B" />
                 <CompetitionLevelCard name="Internationals" color="#00984D" />
