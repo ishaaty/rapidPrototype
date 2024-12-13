@@ -5,6 +5,7 @@
   padding: 5px;
   height: 10vh;
   box-sizing: border-box;
+  margin-left: 44vh;
 }
 
 .resource-box {
@@ -55,6 +56,8 @@
   bottom: -5vh; /* Position button at the bottom */
   left: 0;
   right: 0;
+  margin-left: 43vh;
+  margin-bottom: 5vh;
 }
 
 .center-button {
