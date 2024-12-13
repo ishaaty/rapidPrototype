@@ -1,9 +1,9 @@
 .resources-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two boxes per row */
-  gap: 45px; /* Spacing between boxes */
-  padding: 16px;
-  height: 70vh;
+  gap: 40px; /* Spacing between boxes */
+  padding: 5px;
+  height: 60vh;
   box-sizing: border-box;
 }
 
@@ -34,7 +34,7 @@
   background-color: white;
   color: #00529B;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 6px 12px;
   border: 1px solid white;
   border-radius: 4px;
   font-size: 16px;
@@ -51,7 +51,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 16px; /* Position button at the bottom */
+  bottom: -5vh; /* Position button at the bottom */
   left: 0;
   right: 0;
 }
@@ -60,7 +60,7 @@
   background-color: #F5585E;
   color: white;
   text-decoration: none;
-  padding: 16px 32px;
+  padding: 10px 32px;
   border: none;
   border-radius: 8px;
   font-size: 18px;
