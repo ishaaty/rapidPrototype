@@ -1,0 +1,45 @@
+.approvecont {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 25vw;
+}
+
+#approve {
+    background-color: #00984D;
+    border: #00984D;
+}
+
+#approve:hover {
+    background-color: #03b85d;
+    border: #00984D;
+}
+
+#approve:active {
+    background-color: #006231;
+    border: #00984D;
+}
+
+#deny {
+    background-color: #F5585E;
+    border: #F5585E;
+}
+
+#deny:hover {
+    background-color: #ff8286;
+    border: #F5585E;
+}
+
+#deny:active {
+    background-color: #9e383b;
+    border: #F5585E;
+}
+
+#approve, #deny {
+    border-radius: 4px;
+    color: white;
+    width: fit-content;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 2%;
+    font-family: "Lexend Deca";
+}

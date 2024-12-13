@@ -1,6 +1,15 @@
 import './FundraiserCard.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function FundraiserCard(props) {
+
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        console.log("hit")
+        navigate('/fundraiserapproval'); // Navigate to the "another" page
+    };
 
     const renderParticipantContent = (userRole) => {
         if (userRole === 'participant') {
@@ -20,7 +29,7 @@ export default function FundraiserCard(props) {
             return (
                 <>
                     <div class="approval">
-                        <button id="approval">View Requests</button>
+                        <button id="approval" onClick={handleButtonClick}>View Request</button>
                     </div>
                 </>
             );
@@ -30,7 +39,7 @@ export default function FundraiserCard(props) {
 
     const style = {
         backgroundColor: props.backgroundColor || 'white',  // Default to white if no color is provided
-      };
+    };
 
     return (
         <>
