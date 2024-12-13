@@ -1,9 +1,10 @@
-.container {
+.accontainer {
     background-color: #E3E8F1;
     padding: 5px;
+    margin-bottom: 3vh;
     border-radius: 4px;
-    width: 35%;
-    height: 30%;
+    width: 20vw;
+    height: 10vh;
 }
 
 #name, .data {

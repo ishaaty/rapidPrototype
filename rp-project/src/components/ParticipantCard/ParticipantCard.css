@@ -1,10 +1,10 @@
-.container {
+.pccontainer {
     background-color: #E3E8F1;
-    padding: 2px;
-    margin: 20px;
+    padding: 5px;
+    margin-bottom: 3vh;
     border-radius: 4px;
-    width: 35%;
-    height: 30%;
+    width: 20vw;
+    height: 15vh;
 }
 
 #name, .data {
