@@ -1,4 +1,6 @@
 import './Resources.css';
+import Header from '../../components/Header/Header'
+import Menu from '../../components/Menu/Menu'
 
 // Single Resource Component
 const Resource = ({ text, link1, link2, userRole }) => {
@@ -23,6 +25,8 @@ const Resource = ({ text, link1, link2, userRole }) => {
 const Resources = ({ resources, userRole }) => {
   return (
     <>
+      <Header />
+      <Menu />
       <div className="resources-container">
         {resources.map((resource, index) => (
           <Resource

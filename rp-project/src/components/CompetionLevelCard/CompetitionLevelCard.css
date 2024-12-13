@@ -1,0 +1,18 @@
+.compCard {
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+
+.competition-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    grid-template-rows: repeat(2, auto);  /* 2 rows, height adjusts to content */
+    gap: 75px; /* Space between the cards */
+    justify-items: center; /* Center cards horizontally */
+    align-items: center; /* Center cards vertically */
+    margin: 20px auto; /* Center the grid in the page */
+    max-width: 800px; /* Optional: constrain grid width */
+}
