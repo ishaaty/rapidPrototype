@@ -21,7 +21,7 @@
 }
 
 .partcontainer {
-    /* grid-template-columns: auto auto; */
+    grid-template-columns: auto auto;
     margin-left: 25vw;
     display: grid;
 }

@@ -8,7 +8,7 @@ import ExportCard from '../../components/ExportCard/ExportCard'
 export default function Participants(props) {
 
     const renderAdminContent = () => {
-        if (props.userRole === 'admin') {
+        if (props.userRole === 'admin' || true) {
             return (
                 <ExportCard />
             );
@@ -26,6 +26,7 @@ export default function Participants(props) {
                 <h1 id="partheader">Participants</h1>
                 <div class="partcontainer">
                     <div>
+                    <div>
                         <h3 id="advisors">Advisors</h3>
                         <AdminCard name="Mr. Gutierrez" email="josgut@bergen.org" year="20XX" />
                     </div>
@@ -40,6 +41,7 @@ export default function Participants(props) {
                         <ParticipantCard name="Ashley Johnson" email="ashjoh25@bergen.org" grade="2025" events="Regional Roleplay" />
                     </div>
 
+                    </div>
                     <div id="exportcontainer">
                         {renderAdminContent()}
                     </div>
