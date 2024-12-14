@@ -15,7 +15,6 @@ import Fundraisers from "../Fundraisers/Fundraisers"
 import Participants from "../Participants/Participants"
 import Resources from "../Resources/Resources"
 import FundraiserApproval from "../Fundraisers/FundraiserApproval/FundraiserApproval"
-import ResourcesPage from '../Resources/Resources';
 import ViewAddEvents from '../ViewAddEvents/ViewAddEvents';
 import ViewRequesters from '../ViewRequesters/ViewRequesters';
 import Roommates from '../Roommates/Roommates';
