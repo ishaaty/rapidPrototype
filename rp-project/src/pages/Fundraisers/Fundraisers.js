@@ -33,9 +33,9 @@ export default function Fundraisers(props) {
             <Menu />
             <h1 id="fundheader">Fundraisers</h1>
             <div class="funds">
-                <FundraiserCard userRole={props.userRole || "participant"} name="Back to School Night" desc="Students will run a table at Back to School Night selling BCA merch." date="September 20, 2025" time="6:00pm to 8:00pm" backgroundColor="#F5585E" />
-                <FundraiserCard userRole={props.userRole || "participant"} name="Induction Ceremnoy" desc="While parents are entering the building, students will run a table with refreshments." date="September 20, 2025" time="6:00pm to 8:00pm" backgroundColor="#FFC511" />
-                <FundraiserCard userRole={props.userRole || "participant"} name="Bake Sale" desc="There will be a table by the lower lot with food to sell as students leave the building." date="October 5, 2025" time="3:30pm to 4:30pm" backgroundColor="#00984D" />
+                <FundraiserCard userRole={props.userRole || "admin"} name="Back to School Night" desc="Students will run a table at Back to School Night selling BCA merch." date="September 20, 2025" time="6:00pm to 8:00pm" backgroundColor="#F5585E" />
+                <FundraiserCard userRole={props.userRole || "admin"} name="Induction Ceremnoy" desc="While parents are entering the building, students will run a table with refreshments." date="September 20, 2025" time="6:00pm to 8:00pm" backgroundColor="#FFC511" />
+                <FundraiserCard userRole={props.userRole || "admin"} name="Bake Sale" desc="There will be a table by the lower lot with food to sell as students leave the building." date="October 5, 2025" time="3:30pm to 4:30pm" backgroundColor="#00984D" />
             </div>
             {renderAdminContent()}
         </>
