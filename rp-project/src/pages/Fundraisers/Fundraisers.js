@@ -5,8 +5,10 @@ import FundraiserCard from '../../components/FundraiserCard/FundraiserCard'
 
 export default function Fundraisers(props) {
 
+    const userRole = "admin";
+
     const renderAdminContent = () => {
-        if (props.userRole === 'admin' || true) {
+        if (userRole === 'admin' || true) {
             return (
                 <>
                     <div class="createfund">

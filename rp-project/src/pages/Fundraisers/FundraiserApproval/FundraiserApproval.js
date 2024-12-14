@@ -6,7 +6,7 @@ import ApprovalButtons from '../../../components/ApprovalButtons/ApprovalButtons
 
 export default function FundraiserApproval() {
 
-    let userRole = "admin";
+    let userRole = "admin" || false;
 
     return (
         <>
