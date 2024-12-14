@@ -4,7 +4,9 @@ import Menu from '../../components/Menu/Menu'
 
 export default function ViewAddEvents(props) {
 
-    if (props.userRole === "admin"){
+    const userRole = "admin";
+
+    if (userRole === "admin"){
         return (
             <>
                 <Header />
